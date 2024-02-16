@@ -1,0 +1,59 @@
+:root{
+    --primario:#17b2e3;
+    --primarioOscuro:#3660f7;
+    --segundario:#06dee2;
+    --bkanco:#fff;
+    --negro:#000;
+
+}
+
+body{
+    font-size: 1.6rem;
+    background-color: var(--primario);
+    line-height: 1.5;
+
+}
+
+
+
+header {
+display: flex;
+justify-content: center;
+}
+
+/*BEN
+BLOCK =BLOQUES. nombre
+ELEMENT= ELEMENTOS nombre__logo
+MODIFIER= MODIFICADORES nombres__logo--activo
+*/
+
+.navegacion{
+    background-color: var(--primarioOscuro);
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.navegacion a{
+    color: var(--bkanco);
+    text-decoration: none;
+    font-size: 3rem;
+}
+
+.navegacion a:hover{
+    color: var(--segundario);
+}
+
+
+footer{
+    background-color: var(--primarioOscuro);
+    padding: 1rem 0;
+    margin-top: 2rem;
+    text-align: center
+    ;
+}
+
+
+
+
+
